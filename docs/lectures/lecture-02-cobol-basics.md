@@ -46,6 +46,7 @@ Variables in COBOL are defined using the `PIC` clause, which specifies the pictu
 ```
 
 In the above example:
+
 - `EMPLOYEE-ID` is a numeric variable with a length of 5 digits.
 - `EMPLOYEE-NAME` is an alphabetic variable with a length of 20 characters.
 - `EMPLOYEE-SALARY` is a numeric variable with a length of 6 digits before the decimal point and 2 digits after the decimal point.
@@ -60,7 +61,7 @@ COBOL supports various arithmetic and logical operations, including:
 - **DIVIDE**: Divides one value by another.
 - **IF-ELSE**: Conditional statements for branching logic.
 
-### Example
+### Example (Addition)
 
 ```cobol
 01 NUM1 PIC 9(2) VALUE 10.
