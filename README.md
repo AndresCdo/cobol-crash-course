@@ -51,3 +51,11 @@ Hello, World!
 ## Contributing
 
 If you would like to contribute to this repository, feel free to submit a pull request with your changes. You can contribute by adding new lectures, examples, tools, or resources related to COBOL.
+
+## License
+
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Acknowledgements
+
+This repository was created by [Andres Caicedo](https://github.com/AndresCdo) as part of a series of lectures on COBOL programming.

@@ -1,0 +1,32 @@
+name: COBOL CI
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+  pull_request:
+    branches:
+      - main
+      - dev
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Install GNU COBOL
+      run: sudo apt-get update && sudo apt-get install -y gnucobol4
+
+    - name: Compile hello-world.cbl
+      run: |
+        cd examples
+        ../tools/cobol-compiler/build-cobol-binary.sh hello-world.cbl
+
+    - name: Run hello-world executable
+      run: |
+        cd examples
+        ./hello-world

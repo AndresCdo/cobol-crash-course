@@ -27,7 +27,23 @@ A COBOL program is divided into four divisions:
 3. **Data Division**: Defines the variables and data structures.
 4. **Procedure Division**: Contains the code and logic of the program.
 
-### Example
+## Installation
+
+COBOL compilers are available for various platforms, including Windows, Linux, and macOS. Some popular COBOL compilers include:
+
+- **GNU COBOL (OpenCOBOL)**: An open-source COBOL compiler.
+- **Micro Focus COBOL**: A commercial COBOL compiler.
+- **IBM COBOL**: COBOL compiler from IBM.
+
+You can download and install a COBOL compiler based on your platform and requirements.
+
+## Getting Started
+
+To get started with COBOL, you can begin by reading the lecture notes in the `docs/lectures/` directory. The first lecture provides an introduction to COBOL, its history, and its key features.
+
+## Hello World Example
+
+A simple "Hello, World!" program in COBOL:
 
 ```cobol
 IDENTIFICATION DIVISION.
