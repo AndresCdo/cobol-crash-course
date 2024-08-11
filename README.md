@@ -1,5 +1,11 @@
 # COBOL Learning Resources
 
+<p align="center">
+  <img src="./docs/images/cobol-crash-course.jpeg" alt="COBOL Logo" width="300" />
+</p>
+
+COBOL (Common Business-Oriented Language) is a high-level programming language used primarily for business, finance, and administrative systems. It was developed in the late 1950s and is still in use today in many legacy systems.
+
 This repository contains various resources for learning COBOL, including lectures, examples, and tools.
 
 ## Directory Structure
