@@ -18,7 +18,7 @@ Hands-on Exercises: Include hands-on exercises and coding challenges in
     - [Lecture 02: COBOL Basics](docs/lectures/lecture-02-cobol-basics.md)
     - [Lecture 03: Data Types and Variables](docs/lectures/lecture-03-data-types-and-variables.md)
     - [Lecture 04: Conditional Statements](docs/lectures/lecture-04-conditional-statements.md)
-    - [Lecture 05: Loops and Iteration](docs/lectures/lecture-05-loops-and-iteration.md)
+    - [Lecture 05: Loops and Iteration](docs/lectures/lecture-05-loops-and-iterations.md)
     - [Lecture 06: Arrays and Tables](docs/lectures/lecture-06-arrays-and-tables.md)
     - [Lecture 07: Subprograms and Functions](docs/lectures/lecture-07-subprograms-and-functions.md)
     - [Lecture 08: File Handling in COBOL](docs/lectures/lecture-08-file-handling.md)
