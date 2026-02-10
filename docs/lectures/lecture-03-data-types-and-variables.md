@@ -50,12 +50,12 @@ Alphabetic data types in COBOL are used to store alphabetic characters. The most
 
 - **Alphabetic**: Used for single alphabetic characters.
 
-Alphabetic variables can be defined using the `PIC` clause with the format `X( n )`, where `n` is the length of the variable.
+Alphabetic variables can be defined using the `PIC` clause with the format `A( n )`, where `n` is the length of the variable.
 
 For example:
 
 ```cobol
-01 EMPLOYEE-NAME PIC X(20).
+01 EMPLOYEE-NAME PIC A(20).
 ```
 
 In this example, `EMPLOYEE-NAME` is an alphabetic variable with a length of 20 characters.
@@ -66,12 +66,12 @@ Alphanumeric data types in COBOL are used to store a combination of alphabetic a
 
 - **Alphanumeric**: Used for a combination of alphabetic and numeric characters.
 
-Alphanumeric variables can be defined using the `PIC` clause with the format `A( n )`, where `n` is the length of the variable.
+Alphanumeric variables can be defined using the `PIC` clause with the format `X( n )`, where `n` is the length of the variable.
 
 For example:
 
 ```cobol
-01 EMPLOYEE-ADDRESS PIC A(50).
+01 EMPLOYEE-ADDRESS PIC X(50).
 ```
 
 In this example, `EMPLOYEE-ADDRESS` is an alphanumeric variable with a length of 50 characters.
